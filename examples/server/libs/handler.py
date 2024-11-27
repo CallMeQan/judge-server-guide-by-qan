@@ -1,11 +1,8 @@
-from datetime import timezone
-import hmac
 import json
 import logging
 import threading
 import time
 from collections import deque, namedtuple
-from operator import itemgetter
 
 from .base_handler import ZlibPacketHandler, proxy_list
 
