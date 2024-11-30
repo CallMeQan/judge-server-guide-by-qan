@@ -182,6 +182,7 @@ class JudgeHandler(ZlibPacketHandler):
 
     def on_packet(self, data):
         try:
+            print("We got a packet guys!")
             try:
                 data = json.loads(data)
                 if 'name' not in data:
