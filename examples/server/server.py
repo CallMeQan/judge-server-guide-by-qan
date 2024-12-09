@@ -9,7 +9,7 @@ from libs.ServerModel import Server
 logger = logging.getLogger('judge.bridge')
 
 # Server setup
-judge_server = Server([("", 9999)], partial(JudgeHandler))
+judge_server = Server([("0.0.0.0", 9999)], partial(JudgeHandler))
 
 threading.Thread(target=judge_server.serve_forever).start()
 
