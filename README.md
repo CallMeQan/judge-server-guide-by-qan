@@ -16,7 +16,7 @@ Read more at [VietThienTran's setup documentation](https://github.com/VietThienT
 | ------------- |
 | [How to setup a judge](./new_docs/setting_up_a_judge.md) |
 | [How to run a judge](./new_docs/run_a_judge.md) |
-| [Judge API](./docs/api/) |
+| [Judge API](./new_docs/api/) |
 
 ## Credit
 
