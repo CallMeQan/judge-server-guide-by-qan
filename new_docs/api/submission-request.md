@@ -21,7 +21,7 @@ Submission = NamedTuple(
 )
 ```
 
-### Judge server expect request contains
+### Backend server send to judge server
 
 ```python
 # In `packet.py`, line 259
